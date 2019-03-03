@@ -3,6 +3,7 @@ This  WebApp uses ReactJs, HTML5, CSS3.
 
 Front End consists of 1 Screen. 
 	1.Landing screen displays all the restaurants with pagination
+	2. Search and sort by rating feature is implemented
 
 
 ***************Steps to deploy using Node *****************
@@ -18,8 +19,8 @@ Note: I assume that Node and NPM are installed on your machine,If not then insta
 
 *****************Known issues **************************
 
-1. Advanced requirements are not met, just basic criteria to qualify due to time limitation, hence app is made scalable such that
-it can be implemented in future.
+1. Advanced requirements are met but searching a text changes the data.
+2. Sorting and search UI is scattered due and could not make a proper finish, due to being late.
 
 
 **********************UI Portfolio *********************************
@@ -29,6 +30,6 @@ https://gauravsetaportfolio.herokuapp.com
 
 
 
-	  
+
 
 

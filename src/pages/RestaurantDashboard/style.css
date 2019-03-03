@@ -25,3 +25,64 @@ li {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.filter-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4%;
+}
+
+.search-section {
+  position: relative;
+  position: relative;
+  text-align: left;
+  width: 30%;
+}
+
+.search-section input {
+  padding: 8px;
+  border-radius: 7px;
+  width: 100%;
+}
+
+.search-section .search-results-box {
+  position: absolute;
+  z-index: 999;
+  max-height: 302px;
+  overflow: auto;
+  width: 104%;
+}
+
+.search-section .search-results-box .search-result {
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  margin-left: 4px;
+  padding: 6px;
+  z-index: 999;
+}
+
+.sort-section {
+  color: black;
+  text-align: right;
+}
+
+.sort-section span {
+  padding-right: 4%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.sort-section span img {
+  margin-left: 4px;
+}
+
+.sort-section .down-ver img {
+  margin-top: 3px;
+  transform: rotate(0deg);
+}
+
+.sort-section .up-ver img {
+  transform: rotate(180deg);
+}
