@@ -1,0 +1,61 @@
+.restaurant {
+  width: 45%;
+  margin: 16px;
+}
+
+
+.restaurant .header {
+  background-color: #daf5fc;
+  max-height: 50px;
+  padding: 10px;
+  text-align: left;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #59bad0;
+  font-weight: bold;
+  position: relative;
+}
+
+.restaurant .header .rank {
+  position: absolute;
+  padding: 8px;
+  color: white;
+  background: #ff9865;
+  border-radius: 50%;
+  top: -18px;
+  right: -10px;
+}
+
+.restaurant .header span {
+  color:   #fe82a3;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.restaurant .body {
+  background-color: white;
+  padding: 5px;
+  min-height: 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 16px;
+  color: #ff9a64;
+  text-align: left;
+  position: relative;
+}
+
+.restaurant .body .cuisines {
+  max-width: 365px;
+}
+
+.restaurant .body .cuisines .stars {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media all and (max-width: 768px) {
+  .restaurant .body .cuisines {
+    max-width: 131px;
+  }
+}

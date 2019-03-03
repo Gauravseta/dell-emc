@@ -1,0 +1,27 @@
+ ul {
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  color:black;
+}
+
+.active {
+  outline: none;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 2px;
+  border-radius: 7px;
+}
+
+.restaurants {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
